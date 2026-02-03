@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GimGm-Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <div class="crt-overlay"></div>
+
+    <div id="login-container" class="terminal-window">
+        <div class="terminal-header">
+            <div class="buttons">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <span class="title">guest@mainframe: ~ (bash)</span>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+            <div id="output"></div>
+            <div class="input-line hidden" id="input-line">
+                <span id="prompt-text">user@system:~$</span>
+                <input type="text" id="command-input" autocomplete="off" spellcheck="false">
+                <span class="cursor">█</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="home-container" class="hidden">
+        <header>
+            <div class="brand">
+                <h1>GIMGM<span>Mobile</span></h1>
+                <p id="welcome-msg">Willkommen</p>
+            </div>
+            <button id="logout-btn">
+                Schließen
+            </button>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Willkommen, hier können Sie einkaufen.</h2>
+            </section>
+
+            <div class="service-card">
+                <div class="img-container">
+                    <img src="web-design-3411373_1920.jpg">
+                    <div class="badge">Website</div>
+                </div>
+
+                <div class="service-content">
+                    <h3>Webseite erstellen</h3>
+                    <p>
+                        Wir Kreieren für Ihr Unternehmen eine Website. Sie wünschen, wir erstellen.
+                        Festpreis: 9,99€
+                    </p>
+                    <button type="button" onclick="alert('Danke für den Einkauf!')">Kaufen</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

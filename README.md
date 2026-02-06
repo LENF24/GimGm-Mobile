@@ -8,6 +8,7 @@ Es gibt auch andere Befehle wie 'matrix'.
 Ein Matrix-Hintergrund wird abgespielt.
 
 WICHTIG:
-Jegliche Bilder die man bei den Dienstleistungen sieht, sind kostenlos erwerbbar unter der Webseite 'pixabay.com'. 
+'Jegliche Bilder die man bei den Dienstleistungen sieht, sind kostenlos erwerbbar unter der Webseite 'pixabay.com'. 
+Diese Seite wurde auch für den IT-Zweck programmiert!'
 
 # GimGm-Mobile
